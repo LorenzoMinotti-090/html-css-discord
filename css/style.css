@@ -1,0 +1,123 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+.header {
+    background-color: rgb(174, 203, 228);
+    margin: 0;
+    padding: 10px;
+}
+
+/*main*/
+.section.blue {
+    background-color: darkblue;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.section.white {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section.grey {
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.section.lightgrey {
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+}
+
+.section.black {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer {
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+}
+
+
+.box.yellow {
+    background: goldenrod;
+    width: 600px;
+    height: 20px;
+    margin: auto;
+    border: 1px dashed black;
+}
+
+.box.violet {
+    background: violet;
+    width: 350px;
+    height: 150px;
+    margin: auto;
+    border: 1px dashed black;
+}
+
+.box.blue {
+    background: blue;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    border: 1px dashed black;
+}
+
+.box.pink {
+    background: pink;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    border: 1px dashed black;
+}
+
+.box.green {
+    background: darkgreen;
+    width: 500px;
+    height: 400px;
+    border: 1px dashed black;
+}
+
+.box.red {
+    background: red;
+    width: 200px;
+    height: 250px;
+    border: 1px dashed black;
+}
+
+.box.cyan {
+    background-color: darkcyan;
+    width: 300px;
+    height: 250px;
+    border: 1px dashed black;
+
+}
+
+.foot {
+    background-color: cornflowerblue;
+    width: 600px;
+    height: 30px;
+    margin: auto;
+    align-content: flex-end;
+}
