@@ -6,17 +6,18 @@
 }
 
 /*header*/
-.header {
-    background-color: rgb(174, 203, 228);
+header {
+    background-color: blue;
     margin: 0;
     padding: 10px;
 }
 
 /*main*/
 .section.blue {
-    background-color: darkblue;
-    padding: 10px;
+    padding: 0px;
+    display: flex;
     justify-content: center;
+
 
 }
 
@@ -50,7 +51,7 @@
     padding: 20px;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .footer {
@@ -61,25 +62,22 @@
 
 
 .box.yellow {
-    background: goldenrod;
     width: 600px;
-    height: 20px;
     margin: auto;
     border: 1px dashed black;
 }
 
 .box.violet {
-    background: violet;
-    width: 350px;
-    height: 150px;
-    margin: auto;
+
+    width: 856px;
+    height: 318px;
     border: 1px dashed black;
+    display: flex;
 }
 
 .box.blue {
-    background: blue;
-    width: 300px;
-    height: 150px;
+
+    max-block-size: auto;
     display: flex;
     border: 1px dashed black;
 }
