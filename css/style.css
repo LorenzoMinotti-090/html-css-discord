@@ -15,18 +15,32 @@ header {
 .header-container {
     width: 600px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
-.login{
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    gap: 20px;
+
+}
+
+.login {
     background-color: white;
     padding: 10px 25px;
-
+    border-radius: 40px;
+    color: black;
 
 
 }
+
 /*main*/
 .section.blue {
-    
     padding: 0px;
     display: flex;
 
@@ -78,8 +92,7 @@ header {
 
 .box.violet {
     width: 0 auto;
-
-object-fit: contain;
+    object-fit: contain;
     display: block;
     margin: 0 auto;
 
