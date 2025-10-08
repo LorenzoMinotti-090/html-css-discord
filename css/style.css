@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+img {
+    max-width: 100%;
+}
 /*header*/
 header {
     background-color: blue;
@@ -73,7 +75,7 @@ header {
 }
 
 .section.black {
-
+    background-color: lightgrey;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -93,13 +95,12 @@ header {
     width: 0 auto;
     display: block;
     margin: 0 auto;
-
+    max-block-size: auto;
 
 
 }
 
 .box.blue {
-
     max-block-size: auto;
     display: flex;
 
@@ -108,7 +109,7 @@ header {
 .box.pink {
 
     width: 200px;
-    height: 150px;
+
     display: flex;
 
 }
@@ -116,22 +117,22 @@ header {
 .box.green {
 
     width: 500px;
-    height: 400px;
-    border: 1px dashed black;
+
+
 }
 
 .box.red {
     display: flex;
     width: 200px;
-    height: 250px;
-    border: 1px dashed black;
+
+
 }
 
 .box.cyan {
 
     width: 300px;
-    height: 250px;
-    border: 1px dashed black;
+
+
 }
 
 .download {
@@ -145,7 +146,6 @@ header {
 .foot {
     background-color: cornflowerblue;
     width: 600px;
-    height: 30px;
     margin: auto;
     align-content: flex-end;
 }
